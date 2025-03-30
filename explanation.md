@@ -11,4 +11,4 @@ BEGIN
     JOIN course c ON e.course_id = c.course_id
     WHERE c.course_name = course_name_param;
 END //
-DELIMITER ;```
+DELIMITER ;
