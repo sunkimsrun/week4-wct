@@ -3,7 +3,7 @@
 ## 1. Retrieve All Students Enrolled in a Specific Course
 
 ### Procedure Name: `GetStudentsByCourse`
-#### SQL Code:
+
 ```sql
 DELIMITER //
 CREATE PROCEDURE GetStudentsByCourse(IN course_name_param VARCHAR(45))
