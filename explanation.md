@@ -1,6 +1,4 @@
 # 1. Retrieve All Students Enrolled in a Specific Course
-
-## SQL Code:
 ```sql
 DELIMITER //
 CREATE PROCEDURE GetStudentsByCourse(IN course_name_param VARCHAR(45))
@@ -19,8 +17,6 @@ CALL GetStudentsByCourse('python');
 **Explanation:** dfdfdfdfdfdf.
 
 # 2. Retrieve Course Information by Student ID
-
-## SQL Code:
 ```sql
 DELIMITER //
 CREATE PROCEDURE GetFacultyByDepartment(IN dept_name_param VARCHAR(45))
