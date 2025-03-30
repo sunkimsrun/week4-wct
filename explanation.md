@@ -2,7 +2,7 @@
 1. Retrieve All Students Enrolled in a Specific Course
 Procedure Name: GetStudentsByCourse
 
-```DELIMITER //
+``DELIMITER //
 CREATE PROCEDURE GetStudentsByCourse(IN course_name_param VARCHAR(45))
 BEGIN
     SELECT s.student_id, s.first_name, s.last_name, c.course_name
@@ -11,5 +11,6 @@ BEGIN
     JOIN course c ON e.course_id = c.course_id
     WHERE c.course_name = course_name_param;
 END //
-DELIMITER ;
-```
+DELIMITER ;``
+
+
