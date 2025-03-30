@@ -50,6 +50,7 @@ CALL GetCoursesByStudent('sunkimsrun11@gmail.com');
 ```
 
 **Explanation:** Retrieves the courses which student is enrolled in based on their email address along with the course name and course code. When executed with a student's email as the ***(input parameter)***, it returns a list of courses the student is enrolled in. 
+
 ***For example, if call GetCoursesByStudent('sunkimsrun11@gmail.com'), it will show the courses that the student with this email is enrolled in, including their names and course codes.***
 
 
