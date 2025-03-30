@@ -14,7 +14,7 @@ DELIMITER ;
 CALL GetStudentsByCourse('python');
 ```
 
-**Explanation:** retrieves student information with the course name for all students enrolled in python course and displaying their student_Id, first_name, last_name, and course name.
+**Explanation:** Retrieves student information with the course name for all students enrolled in ***(python)*** course and displaying their student_Id, first_name, last_name, and course name.
 
 # 2. Retrieve Course Information by Student ID
 ```sql
@@ -31,7 +31,7 @@ DELIMITER ;
 CALL GetFacultyByDepartment('IT');
 ```
 
-**Explanation:** The stored procedure GetFacultyByDepartment retrieves information about faculty members who belong to a IT department. it will return the faculty_id, name, and department_name for all faculty members in the 'IT' department.
+**Explanation:** The stored procedure GetFacultyByDepartment will retrieves information about faculty members who belong to a ***(IT department)***. it will return the faculty_id, name, and department_name for all faculty members in the '**IT**' department.
 
 # 3. List all courses a particular student is enrolled in
 ```sql
@@ -49,7 +49,8 @@ DELIMITER ;
 CALL GetCoursesByStudent('sunkimsrun11@gmail.com');
 ```
 
-**Explanation:** retrieves the courses a specific student is enrolled in based on their email address along with the course name and course code. When executed with a student's email as the parameter, it returns a list of courses the student is enrolled in. For example, if you call GetCoursesByStudent('sunkimsrun11@gmail.com'), it will show the courses that the student with this email is enrolled in, including their names and course codes.
+**Explanation:** Retrieves the courses which student is enrolled in based on their email address along with the course name and course code. When executed with a student's email as the ***(input parameter)***, it returns a list of courses the student is enrolled in. 
+***For example, if call GetCoursesByStudent('sunkimsrun11@gmail.com'), it will show the courses that the student with this email is enrolled in, including their names and course codes.***
 
 
 # 4. Retrieve students who have not enrolled in any course
@@ -67,7 +68,7 @@ DELIMITER ;
 CALL GetStudentsWithoutEnrollment();
 ```
 
-**Explanation:** retrieves the list of students who are not enrolled in any courses. this procedure will return a list of students' IDs, names, and email addresses for those who have not enrolled in any course.
+**Explanation:** Retrieves the list of students who are not enrolled in any courses. this procedure will return a list of students' IDs, names, and email addresses for those who have not enrolled in any course. ***the result will show 2 students are not enrolled in any course***
 
 
 # 5. Find the average grade of students in a specific course
@@ -92,5 +93,5 @@ DELIMITER ;
 CALL GetAverageGradeByCourse('Python');
 ```
 
-**Explanation:** The stored procedure GetAverageGradeByCourse calculates the average grade of students for a specific course based on the course name.  It uses a CASE statement to assign numeric values to letter grades (A = 4.0, B = 3.0, C = 2.0, D = 1.0, F = 0.0). it will return the course name and the average grade for the 'Python' course, based on the grades of students enrolled in it.
+**Explanation:** Calculates the average grade of students for a course based on the course name.  It assign values letter to grades (A = 4.0, B = 3.0, C = 2.0, D = 1.0, F = 0.0). it will return the course name and the average grade for the ***(example 'Python' course)***, based on the grades of students enrolled in it.
 
