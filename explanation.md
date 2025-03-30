@@ -1,6 +1,4 @@
-(# SQL Stored Procedures Explanation)
-
-## 1. Retrieve All Students Enrolled in a Specific Course
+# 1. Retrieve All Students Enrolled in a Specific Course
 
 ## SQL Code:
 ```sql
@@ -23,7 +21,8 @@ CALL GetStudentsByCourse('python');
 # 2. Retrieve Course Information by Student ID
 
 ## SQL Code:
-```DELIMITER //
+```sql
+DELIMITER //
 CREATE PROCEDURE GetFacultyByDepartment(IN dept_name_param VARCHAR(45))
 BEGIN
     SELECT f.faculty_id, f.name, d.department_name
