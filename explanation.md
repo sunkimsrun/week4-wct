@@ -18,5 +18,6 @@ END //
 DELIMITER ;
 ```
 **Explanation:** dfdfdfdfdfdf.
+------------------------------
 
 ## 2. Retrieve Course Information by Student ID
