@@ -41,11 +41,18 @@ VALUES ('Alice', 'Johnson', '2001-06-15', 'alice@example.com');
  4. Retrieve students who have not enrolled in any course.
  5. Find the average grade of students in a specific course.
 
- # Submission Guidelines- ER Diagram (image or PDF).- SQL file with CREATE TABLE and INSERT statements.- SQL queries with explanations.- Screenshots of query results.
- Bonus (Optional)
+ # Submission Guidelines
+ - ER Diagram (image or PDF).
+ - SQL file with CREATE TABLE and INSERT statements.
+ - SQL queries with explanations.
+ - Screenshots of query results.
+   
+ # Bonus (Optional)
  - Implement a trigger to update a student's GPA when a grade is updated.
  - Design a stored procedure to enroll a student in a course.
- - Evaluation CriteriaCorrect entity identification and relationships.
+
+# Evaluation Criteria
+ - Correct entity identification and relationships.
  - Well-structured ER diagram.- Accurate transformation of entities into relational tables.
  - Proper use of SQL constraints and normalization.
  - Functional SQL queries that return correct results
