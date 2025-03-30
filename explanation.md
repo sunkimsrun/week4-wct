@@ -16,3 +16,5 @@ BEGIN
   WHERE c.course_name = course_name_param;
 END //
 DELIMITER ;
+
+**Explanation: **
