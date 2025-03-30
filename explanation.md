@@ -15,7 +15,7 @@ BEGIN
     JOIN course c ON e.course_id = c.course_id
     WHERE c.course_name = course_name_param;
 END //
-DELIMITER ;
+DELIMITER ;```
 
-#### Explanation:
-This stored procedure retrieves all students who are enrolled in a specific course. The procedure accepts a course name as an input parameter. It joins the `students`, `enrollments`, and `course` tables to fetch the relevant student details (`student_id`, `first_name`, `last_name`) and the associated course name.
+Explanation:
+This stored procedure retrieves all students who are enrolled in a specific course. The procedure accepts a course name as an input parameter. It joins the students, enrollments, and course tables to fetch the relevant student details (student_id, first_name, last_name) and the associated course name.
