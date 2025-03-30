@@ -4,10 +4,7 @@
 
 ### Procedure Name: `GetStudentsByCourse`
 
-### Explanation:
-This stored procedure retrieves all students who are enrolled in a specific course. The procedure accepts a course name as an input parameter. It joins the `students`, `enrollments`, and `course` tables to fetch the relevant student details (`student_id`, `first_name`, `last_name`) and the associated course name.
-
-#### SQL Code:
+### SQL Code:
 ```sql
 DELIMITER //
 CREATE PROCEDURE GetStudentsByCourse(IN course_name_param VARCHAR(45))
@@ -20,4 +17,5 @@ BEGIN
 END //
 DELIMITER ;
 
-
+#### Explanation:
+This stored procedure retrieves all students who are enrolled in a specific course. The procedure accepts a course name as an input parameter. It joins the `students`, `enrollments`, and `course` tables to fetch the relevant student details (`student_id`, `first_name`, `last_name`) and the associated course name.
