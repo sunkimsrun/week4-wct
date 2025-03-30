@@ -1,7 +1,6 @@
 # SQL Stored Procedures Explanation
 1. Retrieve All Students Enrolled in a Specific Course
 Procedure Name: GetStudentsByCourse
-
 ```DELIMITER //
 CREATE PROCEDURE GetStudentsByCourse(IN course_name_param VARCHAR(45))
 BEGIN
@@ -12,5 +11,3 @@ BEGIN
     WHERE c.course_name = course_name_param;
 END //
 DELIMITER ;```
-
-
