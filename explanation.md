@@ -31,7 +31,7 @@ DELIMITER ;
 CALL GetFacultyByDepartment('IT');
 ```
 
-**Explanation:** dfdfdfdfdfdf.
+**Explanation:** The stored procedure GetFacultyByDepartment retrieves information about faculty members who belong to a IT department. it will return the faculty_id, name, and department_name for all faculty members in the 'IT' department.
 
 # 3. List all courses a particular student is enrolled in
 ```sql
